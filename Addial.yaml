@@ -1,0 +1,14 @@
+---
+ip: "192.168.10.10"
+memory: 2048
+cpus: 1
+
+authorize: /Users/joshhead/.ssh/id_rsa.pub
+
+keys:
+    - /Users/joshhead/.ssh/id_rsa
+
+
+variables:
+    - key: APP_ENV
+      value: local
